@@ -1,3 +1,19 @@
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+
 # Logs
 logs
 *.log
@@ -41,6 +57,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+frontent/node_modules 
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
